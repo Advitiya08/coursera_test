@@ -1,0 +1,114 @@
+*{
+
+	box-sizing: border-box;
+
+}
+
+
+.heading{
+
+text-align: center;
+color: red; 
+
+
+
+}
+
+
+.box{
+
+background-color: gray;
+width: 32.7%;
+font-size: 30px;
+margin-left:  1px;
+border: 1px solid black;
+margin-bottom: 0;
+margin-top: 0;
+display: inline-block;
+}
+
+.boxs{
+
+background-color: gray;
+width: 32.7%;
+font-size: 30px;
+margin-left:  1px;
+border: 1px solid black;
+margin-bottom: 0;
+margin-top: 0;
+display: inline-block;
+}
+.boxt{
+
+background-color: gray;
+width: 32.7%;
+font-size: 30px;
+margin-left:  1px;
+border: 1px solid black;
+margin-bottom: 0;
+margin-top: 0;
+display: inline-block;
+}
+
+.contento{
+
+width: 15%;
+background-color: red;
+font-size:17px;
+margin-top: 0;
+float: right;
+border: 1px solid black;
+}
+
+
+.contents{
+
+width: 15%;
+background-color: orange;
+font-size: 17px;
+float: right;
+margin-top: 0;
+border: 1px solid black;
+}
+.contentt{
+
+
+width: 15%;
+background-color: yellow;
+font-size: 17px;
+float: right;
+margin-top: 0;
+  border: 1px solid black;
+}
+@media (max-width: 991px) and (min-width: 768px)
+{
+	.box{
+		width: 49.5%;
+	}
+	.boxs{
+		width: 49.5%
+	}
+.boxt{
+	width: 99.5%;
+}
+
+
+
+} 
+
+@media (max-width: 767px)
+{
+
+
+
+.box{
+		width: 99.5%;
+	}
+	.boxs{
+		width: 99.5%
+	}
+.boxt{
+	width: 99.5%;
+}
+
+}
